@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b23fb58e-e253-4a90-9d28-42c13350e048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\00.Standard Scene">
+      <UniqueIdentifier>{42effb97-fae5-49ed-ad67-66a10ec5e0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\01.Main">
+      <UniqueIdentifier>{6eab922d-6da5-4579-88e1-cae8d53fa112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\02.Intro">
+      <UniqueIdentifier>{1f6295f4-a3ce-47be-95c7-3862091da575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation">
+      <UniqueIdentifier>{7279eaca-b9d1-46ba-884d-e96fbe8bd912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\04.Ending">
+      <UniqueIdentifier>{5a9290ff-8e79-4c0f-bb63-ba90db82a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c3f38e53-dbbc-4eeb-bddf-194ab50f6643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{20748eed-5d7c-4940-b147-0fa873afe39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a69c9790-cb4c-4705-a189-7c22d86adcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\InputManager">
+      <UniqueIdentifier>{bf3d85d0-770f-4086-b9e6-594638ba88c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{c42f9e5d-0073-4395-96b8-5e5c03df9dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_3">
+      <UniqueIdentifier>{5f95501f-a046-46aa-b3ad-2486d6f2a250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_1">
+      <UniqueIdentifier>{29e1c476-403b-4102-879d-4aad2a5d42d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_2">
+      <UniqueIdentifier>{4da9e567-8770-441f-8fc1-38e3cc0440b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_7">
+      <UniqueIdentifier>{569667de-08bf-4a46-bd64-ed3a335c157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_6">
+      <UniqueIdentifier>{7be9776e-f933-4dfc-98c3-8429e7e0feb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_5">
+      <UniqueIdentifier>{c7c60b2b-dce3-4573-86c9-71cde26f3ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Situation\Situation_4">
+      <UniqueIdentifier>{7d76815e-f22d-4cfd-8d74-070bff65c812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SoundManager">
+      <UniqueIdentifier>{28677624-cb4e-4ee8-a283-589f517fdb80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene\00.Standard Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Scene\01.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Scene\02.Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Scene\00.Standard Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_1.cpp">
+      <Filter>Scene\03.Situation\Situation_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_2.cpp">
+      <Filter>Scene\03.Situation\Situation_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_3.cpp">
+      <Filter>Scene\03.Situation\Situation_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_4.cpp">
+      <Filter>Scene\03.Situation\Situation_4</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_5.cpp">
+      <Filter>Scene\03.Situation\Situation_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_6.cpp">
+      <Filter>Scene\03.Situation\Situation_6</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation_7.cpp">
+      <Filter>Scene\03.Situation\Situation_7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Scene\04.Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectScene.cpp">
+      <Filter>Scene\01.Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\00.Standard Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Scene\01.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Scene\02.Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Scene\00.Standard Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_1.h">
+      <Filter>Scene\03.Situation\Situation_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_2.h">
+      <Filter>Scene\03.Situation\Situation_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_3.h">
+      <Filter>Scene\03.Situation\Situation_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_4.h">
+      <Filter>Scene\03.Situation\Situation_4</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_5.h">
+      <Filter>Scene\03.Situation\Situation_5</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_6.h">
+      <Filter>Scene\03.Situation\Situation_6</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation_7.h">
+      <Filter>Scene\03.Situation\Situation_7</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Scene\04.Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="CollectScene.h">
+      <Filter>Scene\01.Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="무인도.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>

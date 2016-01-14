@@ -1,0 +1,22 @@
+﻿  WinMain.cpp
+  SoundManager.cpp
+  Situation_7.cpp
+  Situation_6.cpp
+  Situation_5.cpp
+  Situation_4.cpp
+  Situation_3.cpp
+  Situation_2.cpp
+  SceneManager.cpp
+  Scene.cpp
+  Main.cpp
+  Intro.cpp
+  InputManager.cpp
+  Game.cpp
+  function.cpp
+  Ending.cpp
+  Common.cpp
+  CollectScene.cpp
+  코드를 생성하고 있습니다...
+  Situation_1.cpp
+CollectScene.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
+  무인도.vcxproj -> E:\완성 프로젝트\무인도\어이쿠! 무인도 프로그램 소스\Debug\무인도.exe

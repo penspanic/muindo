@@ -1,0 +1,56 @@
+﻿빌드 시작: 2015-01-29 오후 1:42:45
+     1>2 노드의 "G:\무인도\무인도.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CollectScene.cpp Common.cpp Ending.cpp function.cpp Game.cpp InputManager.cpp Intro.cpp Main.cpp Scene.cpp SceneManager.cpp Situation_1.cpp Situation_2.cpp Situation_3.cpp Situation_4.cpp Situation_5.cpp Situation_6.cpp Situation_7.cpp SoundManager.cpp WinMain.cpp
+         CollectScene.cpp
+         Common.cpp
+         Ending.cpp
+         function.cpp
+         Game.cpp
+         InputManager.cpp
+         Intro.cpp
+         Main.cpp
+         Scene.cpp
+         SceneManager.cpp
+         Situation_1.cpp
+         Situation_2.cpp
+         Situation_3.cpp
+         Situation_4.cpp
+         Situation_5.cpp
+         Situation_6.cpp
+         Situation_7.cpp
+         SoundManager.cpp
+         WinMain.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\무인도.res" "무인도.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\무인도\Release\무인도.exe" /INCREMENTAL:NO /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\무인도.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\무인도\Release\무인도.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\무인도\Release\무인도.lib" /MACHINE:X86 "Release\무인도.res"
+         Release\CollectScene.obj
+         Release\Common.obj
+         Release\Ending.obj
+         Release\function.obj
+         Release\Game.obj
+         Release\InputManager.obj
+         Release\Intro.obj
+         Release\Main.obj
+         Release\Scene.obj
+         Release\SceneManager.obj
+         Release\Situation_1.obj
+         Release\Situation_2.obj
+         Release\Situation_3.obj
+         Release\Situation_4.obj
+         Release\Situation_5.obj
+         Release\Situation_6.obj
+         Release\Situation_7.obj
+         Release\SoundManager.obj
+         Release\WinMain.obj
+         Generating code
+         Finished generating code
+         무인도.vcxproj -> G:\무인도\Release\무인도.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\무인도\Release\무인도.exe;#1" /manifest "Release\무인도.exe.intermediate.manifest"
+     1>"G:\무인도\무인도.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:17.97
