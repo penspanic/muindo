@@ -94,9 +94,9 @@ void CollectScene::InputProcess()
 {
 	if (InputManager()->KeyDown(VK_LBUTTON))
 	{
-		if (PtInRect(&Back, InputManager()->GetMousePos()) && Selected == false)
+		if (PtInRect(&Back, InputManager()->GetMousePos()) && Selected == false) //뒤로가기 버튼이 눌렸을 때
 			SceneManager()->ChangeScene(new class Main);
-		else if (PtInRect(&Back, InputManager()->GetMousePos()) && Selected == true)
+		else if (PtInRect(&Back, InputManager()->GetMousePos()) && Selected == true) // 사망씬 출력중에 뒤로가기 버튼이 눌렸을 때
 		{
 			for (size_t i = 0; i < 14; i++)
 				SceneShow[i] = false;
@@ -112,8 +112,6 @@ void CollectScene::InputProcess()
 			}
 		}
 	}
-
-
 }
 
 void CollectScene::Process()
