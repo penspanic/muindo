@@ -8,16 +8,16 @@
 class CollectScene:public CScene
 {
 private:
-        const int obtainableSceneNum = 14;
+        const int ObtainableSceneNum = 14;
 	HBITMAP *hbit;
 	HBITMAP *Scene;
-	RECT Collection[obtainableSceneNum];
+	RECT Collection[ObtainableSceneNum];
 	
 	RECT Main;
 	RECT Back;
 
 	bool Selected;
-	bool SceneShow[obtainableSceneNum];
+	bool SceneShow[ObtainableSceneNum];
 
 public:
 	CollectScene();
