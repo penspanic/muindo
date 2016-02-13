@@ -98,14 +98,14 @@ void CollectScene::InputProcess()
 			SceneManager()->ChangeScene(new class Main);
 		else if (PtInRect(&Back, InputManager()->GetMousePos()) && Selected == true) // 사망씬 출력중에 뒤로가기 버튼이 눌렸을 때
 		{
-			for (size_t i = 0; i < 14; i++)
+			for (size_t i = 0; i < ObtainableSceneNum; i++)
 				SceneShow[i] = false;
 			Selected = false;
 		}
-		for (size_t i = 0; i < 14; i++)
+		for (size_t i = 0; i < ObtainableSceneNum; i++)
 		{
 			if (PtInRect(&Collection[i], InputManager()->GetMousePos())
-				&& Game()->GetCollectionCleared(i) == true)
+				&& Game()->GetCollectionCleared(i) == true) // 해제된 사망씬을 클릭했을 때
 			{
 				SceneShow[i] = true;
 				Selected = true;
